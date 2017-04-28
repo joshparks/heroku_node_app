@@ -9,7 +9,7 @@ var restful = require('node-restful');
 // =====================
 // COMMON VARIABLES
 // =====================
-let appPort: number = (process.env.PORT || 1234);
+let appPort: number = (process.env.PORT || 5000);
 let connectionString:string = (process.env.MONGODB_URI || 'mongodb://localhost/express-todo');
 
 
